@@ -7,11 +7,7 @@ export default defineConfig({
     sources: "./level",
   },
   solidity: {
-    profiles: {
-      default: {
-        version: "0.8.0",
-      },
-    },
+    compilers: [{ version: "0.6.0" }, { version: "0.8.0" }],
   },
   networks: {
     hardhatMainnet: {
