@@ -5,7 +5,8 @@
   "scripts": {
     "compile": "hardhat compile",
     "exploit:01": "hardhat run level/01-Fallback/scripts/exploit.ts",
-    "exploit:02": "hardhat run level/02-Fallout/scripts/exploit.ts"
+    "exploit:02": "hardhat run level/02-Fallout/scripts/exploit.ts",
+    "exploit:03": "hardhat run level/03-CoinFlip/scripts/exploit.ts"
   },
   "dependencies": {
     "dotenv": "^17.2.3"
