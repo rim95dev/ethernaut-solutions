@@ -4,9 +4,7 @@
   "type": "module",
   "scripts": {
     "compile": "hardhat compile",
-    "exploit:01": "hardhat run level/01-Fallback/scripts/exploit.ts",
-    "exploit:02": "hardhat run level/02-Fallout/scripts/exploit.ts",
-    "exploit:03": "hardhat run level/03-CoinFlip/scripts/exploit.ts"
+    "exploit": "sh -c 'level_num=$(printf \"%02d\" $0); level_dir=$(find level -type d -name \"$level_num-*\"); npx hardhat run $level_dir/scripts/exploit.ts'"
   },
   "dependencies": {
     "dotenv": "^17.2.3"
