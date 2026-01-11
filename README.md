@@ -1,6 +1,6 @@
 # Ethernaut Challenge Solutions
 
-This repository contains solutions for the [Ethernaut](https://ethernaut.openzeppelin.com/) wargame, a platform for learning about Ethereum and smart contract security. The solutions are written using [Hardhat](https://hardhat.org/), [Ethers.js](https://ethers.io/), and [TypeScript](https://www.typescriptlang.org/).
+This repository contains solutions for the [Ethernaut](https://ethernaut.openzeppelin.com/) wargame, a platform for learning about Ethereum and smart contract security. The solutions are written using [Hardhat](https://hardhat.org/), [Ethers.js](https://docs.ethers.org/v6/), and [TypeScript](https://www.typescriptlang.org/).
 
 ## Project Structure
 
@@ -34,12 +34,13 @@ The repository is organized by level. Each level has its own directory containin
     cp .env.example .env
     ```
 
-    Then, edit the `.env` file and fill in your environment-specific variables, such as your Sepolia RPC URL and private key.
+    Then, edit the `.env` file and fill in your environment-specific variables, such as your RPC URL and private key.
 
     ```dotenv
     # .env
-    SEPOLIA_RPC_URL="<your_sepolia_rpc_url>"
-    PRIVATE_KEY="<your_wallet_private_key>"
+    RPC_URL="<your_rpc_url>"
+    PRIVATE_KEYS="<your_wallet_private_keys>"
+    LEVEL_XX_ADDRESSES="<your_instance_addresses>"
     ```
 
 ## How to Run Solutions
