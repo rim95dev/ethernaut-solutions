@@ -16,7 +16,7 @@ The repository is organized by level. Each level has its own directory containin
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/<your-username>/ethernaut-solutions.git
+    git clone https://github.com/rim95dev/ethernaut-solutions.git
     cd ethernaut-solutions
     ```
 
